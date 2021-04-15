@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.header{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  position:fixed;
+  border-bottom:2px solid #dedcd9;
+}
+.menu-icon{
+  cursor: pointer;
+  font-size:2.1rem !important;
+  padding-top:4px;
+}
+.menu-icon:hover{
+  transition-duration: 0.4s;
+  background: #dedcd9;
+  border-radius: 28px;
+}
+h1{
+  color:gray;
+  padding-top:4.1px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+p{
+  padding-left: 10px;
+}
+.info{
+  padding-left: 10px;
+  overflow: scroll;
+}
+.logo{
+  padding-top:2px;
+  padding-left:6px;
+  width:33px;
+  height: 33px;
+}
+.searchbar{
+  cursor: pointer;
+  border:1px solid black;
+  border-radius: 4px;
+  padding:3px 0 3px 5px ;
+  margin-bottom: 6px;
+  margin:auto;
+  background-color: #ccc;
+
+}
+
+.content-area{
+  border-radius:4px;
+  width:100%;
+  padding-left: 5px;
+
+}
+.input-area{
+  width:100%;
+  padding-left: 5px;
+}
+
+.icons{
+  cursor: pointer;
+  font-size:2rem !important;
+  padding-top:7px;
+  color: gray;
+  font-weight: bolder;
+  display: flex;
+  padding-left:14px;
+}
+
+.bk{
+  cursor: pointer;
+  color:gray;
+  display: inline-block;
+  position: relative;
+  top:2rem;
+  left:0;
+  float: left;
+}
+ol li{
+  padding-top: 10px;
+}
+
+.notes-div{
+  scale: 1;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  position: relative;
+  margin:auto;
+  top:5.4rem;
+  width:300px;
+  height:130px;
+  border: 2px solid whitesmoke;
+}
+form{
+  /*box-shadow: 3px 3px 5px 6px #ccc;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+ border: 2px solid red;*/
+  padding-left:5px;
+  padding-top: 3px;
+}
+
+form input {
+
+border:none;
+font-size:17px;
+color:gray;
+font-weight: bold;
+padding:5px;
+
+}
+
+form textarea{
+  font-weight: bold;
+  width:auto;
+  height: auto;
+  font-size:10px;
+  color:gray;
+  border:none;
+  margin-top: 5px;
+  padding: 5px;
+
+}
+
+.add-button{
+  cursor:pointer;
+  color: orange !important;
+  font-size:2.3rem !important;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+  float: right;
+  top:1.7rem;
+
+}
+.delete-button{
+  cursor: pointer;
+  color: orange !important;
+  position: relative;
+  top:1.3rem;
+  float: right;
+}
+
+.notes-content{
+  border:1px solid gray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin:auto;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  top:8rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-notes{
+
+  width:200px;
+
+}
+
+
