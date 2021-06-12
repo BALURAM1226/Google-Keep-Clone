@@ -1,5 +1,4 @@
 import React from 'react';
-import Iconbar from './Iconbar'
 import ViewStreamIcon from '@material-ui/icons/ViewStream';
 import MenuIcon from '@material-ui/icons/Menu';
 import SettingsIcon from '@material-ui/icons/Settings';
